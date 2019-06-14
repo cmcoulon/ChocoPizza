@@ -1,0 +1,123 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+#asideLeft {
+  height: 100%;
+  float: left;
+  width: 200px;
+}
+
+#asideRight {
+  height: 100%;
+  float: right;
+  width: 200px;
+}
+
+
+header {
+  border-image-source : url('/img/hr-img.png'); 
+  overflow: auto;
+  height: 100px;
+}
+ #headerLogoLeft {
+   float: left;
+   margin-top: 25px;
+ }
+
+ #headerLogoLeft > ul {
+   float: right;
+   margin-left: 10px;
+ }
+
+ #headerLogoLeft > ul > li:first-child {
+   font-family: cursive, sans-serif;
+   font-size: 2.25em;
+ }
+
+ #headerLogoLeft >ul > li:nth-child(2) {
+   font-size: .75em;
+ }
+
+ #headerLogoRight {
+   float: right;
+   margin-top: 35px;
+ }
+
+ #headerLogoRight > li {
+   float: left;
+ }
+
+ #headerLogoRight > li:nth-child(6) {
+   margin-right: 10px;
+ }
+
+#mainArticleHeader {
+  height: 200;
+  margin-bottom: 25px;
+  overflow: auto;
+  width: 100%;
+}
+
+#mainArticleHeader > div:first-child {
+  float: left;
+}
+
+#mainArticleHeader > div:nth-child(2) {
+  float: right;
+  margin-top: 46px;
+}
+
+#mainArticleHeader > div:first-child > h1 {
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: bold;
+}
+
+#mainArticleHeader > div:first-child > h3 {
+  font-size: .9em;
+  color: gray;
+}
+
+#mainArticleHeader > div:nth-child(2) > ul > li {
+  float: left;
+}
+
+#mainArticleHeader > div:nth-child(2) > ul > li:nth-child(2) {
+  font-size: .9em;
+  color: gray;
+}
+
+#pictureAndParagraphs > img {
+  margin-bottom: 25px;
+}
+
+#pictureAndParagraphs > p {
+  margin-bottom: 30px;
+  text-indent: 4ch;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+#shoppingList {
+  overflow: auto;
+  width: 100%;
+  position: relative;
+  bottom: 300px;
+  left: 50px;
+  line-height: 1.4;
+}
+
+#shoppingList > ul {
+float: left;
+width: 300px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: grey;
+font-size: 1.4em;
+list-style-type: square;
+margin-left: 80px;
+
+}
